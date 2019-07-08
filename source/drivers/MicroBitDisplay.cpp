@@ -1020,7 +1020,7 @@ int MicroBitDisplay::setBrightness(int b)
     if(b < 0 || b > 255)
         return MICROBIT_INVALID_PARAMETER;
 
-    this->brightness = b;
+    this->brightness = 1;
 
     return MICROBIT_OK;
 }
